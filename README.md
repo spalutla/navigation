@@ -28,6 +28,6 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
 ## Training the Agent
-The individual cells in notebook ```Continuous_Control.ipynb``` can be executed sequentially to train the agent. Note that after training, this file saves the Q-Network NN weights in the checkpoint.pth files.  Additionally, note that these files are provided in the git repo and a re-run will cause these files to be generated with the new run.
+The individual cells in notebook ```Navigation.ipynb``` can be executed sequentially to train the agent. Note that after training, this file saves the Q-Network NN weights in the checkpoint.pth files.  Additionally, note that these files are provided in the git repo and a re-run will cause these files to be generated with the new run.
 
 If you just want to see the performance, the use the ```Saved_Agent.ipynb```. Execute the only cell in the notebook.  The code loads the actor and critic NN weights and runs the environment for 200 time steps before terminating.
